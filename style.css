@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background-color: #eef1f7;
+  color: #333;
+}
+
+/* LAYOUT */
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 300px;
+  background: #ffffff;
+  padding: 45px 25px;
+  border-right: 1px solid #e5e7eb;
+}
+
+.profile {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.photo {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 18px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: #d1d5db;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile h2 {
+  font-size: 22px;
+  margin-bottom: 6px;
+}
+
+/* BIODATA */
+.biodata {
+  background: #f9fafb;
+  padding: 22px;
+  border-radius: 14px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  font-size: 15px;
+}
+
+.item:last-child {
+  margin-bottom: 0;
+}
+
+.item span {
+  color: #6b7280;
+}
+
+.item strong {
+  color: #111827;
+}
+
+/* CONTENT */
+.content {
+  flex: 1;
+  background-color: #f3f4f6;
+}
+
+/* HERO */
+.hero {
+  padding: 80px 70px;
+  background: linear-gradient(135deg, #9ca3af, #6b7280);
+  color: #ffffff;
+}
+
+.hero h1 {
+  font-size: 44px;
+  margin-bottom: 18px;
+  line-height: 1.2;
+}
+
+.hero p {
+  max-width: 650px;
+  font-size: 18px;
+  opacity: 0.95;
+}
+
+/* SECTION */
+.section {
+  padding: 70px;
+}
+
+/* STORY */
+.story {
+  margin-bottom: 75px;
+}
+
+.story h2 {
+  font-size: 30px;
+  margin-bottom: 28px;
+  color: #111827;
+}
+
+/* CARD */
+.card {
+  background: #ffffff;
+  padding: 38px 42px;
+  border-radius: 22px;
+  box-shadow: 0 16px 35px rgba(0, 0, 0, 0.08);
+  max-width: 900px;
+}
+
+.card p {
+  margin-bottom: 18px;
+  line-height: 1.8;
+  text-align: justify;
+  color: #374151;
+}
+
+.card p:last-child {
+  margin-bottom: 0;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #e5e7eb;
+  }
+
+  .hero {
+    padding: 60px 35px;
+  }
+
+  .section {
+    padding: 50px 35px;
+  }
+}
