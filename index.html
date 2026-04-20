@@ -3,14 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Perjalanan Hidup</title>
+  <title>Perjalanan Hidup | Novia Elsyana</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="logo-area">
+      <div class="logo-icon">
+        <i class="fas fa-book-open"></i>
+      </div>
+      <span class="logo-text">Journey<span style="font-weight:400">|Novia</span></span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#semester-ganjil"><i class="fas fa-graduation-cap"></i> Semester Ganjil</a></li>
+      <li><a href="#liburan"><i class="fas fa-umbrella-beach"></i> Liburan</a></li>
+      <li><a href="#hari-raya"><i class="fas fa-moon"></i> Hari Raya</a></li>
+      <li><a href="#harapan"><i class="fas fa-star"></i> Harapan</a></li>
+    </ul>
+  </div>
+</nav>
+
 <div class="layout">
 
-  <!-- SIDEBAR -->
   <aside class="sidebar">
     <div class="profile">
       <div class="photo">
@@ -21,39 +39,36 @@
 
     <div class="biodata">
       <div class="item">
-        <span>Kelas</span>
+        <span><i class="fas fa-user-graduate"></i> Kelas</span>
         <strong>XI RPL 1</strong>
       </div>
       <div class="item">
-        <span>Absen</span>
+        <span><i class="fas fa-hashtag"></i> Absen</span>
         <strong>36</strong>
       </div>
       <div class="item">
-        <span>Sekolah</span>
+        <span><i class="fas fa-school"></i> Sekolah</span>
         <strong>SMKN 1 Denpasar</strong>
       </div>
     </div>
   </aside>
 
-  <!-- MAIN CONTENT -->
   <main class="content">
 
-    <!-- HERO -->
     <header class="hero">
       <h1>
         Perjalanan dan Harapan untuk Semester Depan
       </h1>
       <p>
-      Ringkasan pengalaman selama semester ganjil, kegiatan selama liburan semester, 
-      serta harapan dan target yang ingin diwujudkan pada semester genap.
+        Ringkasan pengalaman selama semester ganjil, kegiatan selama liburan semester, 
+        serta harapan dan target yang ingin diwujudkan pada semester genap.
       </p>
     </header>
 
-    <!-- SECTION CERITA -->
     <section class="section">
 
-      <div class="story">
-        <h2>Cerita Selama Semester Ganjil</h2>
+      <div class="story" id="semester-ganjil">
+        <h2><i class="fas fa-chalkboard-user" style="margin-right: 10px;"></i> Cerita Selama Semester Ganjil</h2>
         <div class="card">
           <p>
             Pada semester ganjil kelas XI, saya mulai merasakan perubahan yang cukup besar dalam 
@@ -79,8 +94,8 @@
         </div>
       </div>
 
-      <div class="story">
-        <h2>Cerita Selama Liburan Semester</h2>
+      <div class="story" id="liburan">
+        <h2><i class="fas fa-plane-departure" style="margin-right: 10px;"></i> Cerita Selama Liburan Semester</h2>
         <div class="card">
           <p>
             Pada minggu pertama liburan semester, saya menghabiskan waktu untuk benar-benar 
@@ -105,8 +120,8 @@
         </div>
       </div>
 
-      <div class="story">
-        <h2>Libur Hari Raya</h2>
+      <div class="story" id="hari-raya">
+        <h2><i class="fas fa-star-and-crescent" style="margin-right: 10px;"></i> Libur Hari Raya</h2>
         <div class="card">
           <p>
             Libur hari raya tahun ini benar-benar berbeda. Awalnya aku semangat banget menyambut liburan panjang tanggal 16 sampai 29 Maret. Biasanya, aku bisa santai, jalan-jalan, atau sekadar ngumpul keluarga. Tapi ternyata, liburan kali ini nggak seperti yang aku bayangkan.
@@ -138,8 +153,8 @@
         </div>
       </div>
 
-      <div class="story">
-        <h2>Harapan untuk Semester Genap</h2>
+      <div class="story" id="harapan">
+        <h2><i class="fas fa-seedling" style="margin-right: 10px;"></i> Harapan untuk Semester Genap</h2>
         <div class="card">
           <p>
             Pada semester genap nanti, saya berharap dapat menjadi pribadi yang lebih disiplin 
@@ -159,5 +174,6 @@
     </section>
   </main>
 </div>
+
 </body>
 </html>
